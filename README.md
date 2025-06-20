@@ -1,18 +1,18 @@
 # 👨‍🍳 ChefGPT
 
-**ChefGPT** is an AI-powered recipe generator that helps you discover meal ideas based on the ingredients you have. Built using a Retrieval-Augmented Generation (RAG) approach with FAISS and Sentence Transformers.
+**ChefGPT** is an AI-powered recipe recommendation app that suggests meal ideas based on the ingredients you have. It uses **semantic search** to retrieve matching recipes and falls back to **Groq's LLM** when no matches are found — automatically growing its recipe knowledge base.
 
 ---
 
-## 🚀 Features
+## 🔍 Features
 
-- 🔍 Input ingredients and receive intelligent recipe suggestions
-- 🧠 Uses semantic search with embeddings to find the best matches
-- 💾 Local FAISS index for fast retrieval
-- 🧑‍🍳 Custom dataset of real, easy-to-make recipes
-- 💡 Fully local and free — no paid API needed
+- 🧠 **Semantic ingredient search** with FAISS + MiniLM
+- 🍽 **Top 5 recipe suggestions** based on your ingredients
+- 🤖 **Fallback to Groq API** if no recipe is found
+- 📦 Automatically **saves new recipes** to `recipes.json`
+- 🧾 Clean Next.js UI with Tailwind styling
 
 ---
 
-## 📁 Project Structure
+
 
