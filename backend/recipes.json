@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Spinach and Egg Stir Fry",
+    "ingredients": ["spinach", "eggs", "garlic", "soy sauce", "oil","egg"],
+    "instructions": "Heat oil in a pan. Add minced garlic and sauté until fragrant. Add spinach and cook until wilted. Push spinach to the side, scramble eggs on the other side. Mix everything together, season with soy sauce, and serve hot."
+  },
+  {
+    "title": "Tomato Rice",
+    "ingredients": ["rice", "tomatoes", "onion", "garlic", "oil", "salt", "pepper"],
+    "instructions": "Heat oil in a pot, sauté chopped onions and garlic until translucent. Add chopped tomatoes and cook until soft. Add washed rice, salt, and pepper. Add water and cook until rice is done. Fluff and serve."
+  },
+  {
+    "title": "Garlic Butter Pasta",
+    "ingredients": ["pasta", "garlic", "butter", "parsley", "salt", "pepper"],
+    "instructions": "Cook pasta according to package instructions. In a pan, melt butter and sauté minced garlic. Toss cooked pasta in the garlic butter, season with salt, pepper, and sprinkle chopped parsley. Serve warm."
+  },
+  {
+    "title": "Vegetable Omelette",
+    "ingredients": ["eggs", "onion", "bell pepper", "tomato", "salt", "pepper", "oil"],
+    "instructions": "Beat eggs with salt and pepper. Heat oil in a pan, sauté chopped onion, bell pepper, and tomato until soft. Pour eggs over vegetables and cook until set. Fold and serve."
+  }
+]
