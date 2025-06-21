@@ -13,23 +13,25 @@ export default function Home() {
   const handleSubmit = async () => {
     if (!ingredients.trim()) return;
     setLoading(true);
-    setResults([]);
+  setResults([]);
 
-    try {
-      const res = await fetch("http://localhost:3001/api/chef", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ingredients }),
-      });
+  try {
+    const res = await fetch("https://chefgptbackend.onrender.com/api/chef", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ingredients }),
+    });
 
-      const data = await res.json();
-      setResults(data.results || []);
-    } catch (error) {
-      setResults(["❌ Error fetching recipes. Try again."]);
-    } finally {
-      setLoading(false);
-    }
-  };
+    const data = await res.json();
+    setResults(data.results || []);
+  } catch (error) {
+    setResults(["❌ Error fetching recipes. Try again."]);
+  } finally {
+    setLoading(false);
+  }
+};
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
